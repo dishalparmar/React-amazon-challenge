@@ -1,0 +1,66 @@
+.login {
+  background-color: #ffffff;
+  height: 100vh; /* vh = view height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-logo {
+  margin: 20px auto;
+  object-fit: contain; /* this keeps the aspect ratio when resizing */
+  width: 100px;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+.login-container > h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login-container > form > h5 {
+  margin-bottom: 5px;
+}
+.login-container > form > input {
+  height: 30px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+.login-container > p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.login-signin-btn {
+    background: #f0c14b;
+    border-radius: 2px;
+    border: 1px solid;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111111;
+}
+.login-signin-btn {
+    background: #f0c14b;
+    border-radius: 2px;
+    border: 1px solid;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111111;
+}
+.login-create-account-btn {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: #999999;
+}
