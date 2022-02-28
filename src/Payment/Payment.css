@@ -1,0 +1,49 @@
+.payment {
+  background-color: #ffffff;
+}
+.payment-container > a > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #999999;
+  color: #131921;
+}
+.payment-container > a > h1 .MuiSvgIcon-fontSizeMedium {
+  font-size: 2rem;
+}
+.payment-section {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.payment-title {
+  flex: 0.3;
+}
+.payment-title {
+  flex: 0.3;
+}
+.payment-address,
+.payment-items,
+.payment-details {
+  flex: 0.7;
+}
+.payment-details > form > .StripeElement {
+  border-bottom: 1px solid #666666;
+  height: 30px;
+  max-width: 500px;
+}
+.payment-total-price {
+  margin: 10px 0;
+}
+.payment-btn {
+  background: #f0c14b;
+  border-radius: 2px;
+  border: 1px solid;
+  width: 150px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111111;
+}
